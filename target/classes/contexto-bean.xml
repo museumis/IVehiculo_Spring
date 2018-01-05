@@ -15,6 +15,11 @@
 	<bean id="Conductor" class="coches.Conductor">
 		<constructor-arg name="vehiculo" ref="miCoche"></constructor-arg>
 	</bean>
+	
+	<!-- Objeto de Persona-> persona -->
+	<bean id="persona" class="coches.Persona">
+		<constructor-arg name="nombre" ref="Titiritero"></constructor-arg>
+	</bean>
 
 
 

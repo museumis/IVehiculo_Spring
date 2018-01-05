@@ -58,7 +58,7 @@ public class Coche implements IVehiculo {
 	
 	@Override
 	public String toString() {
-		return " - "+this.marca + " - "+this.modelo+" - "+this.deposito;
+		return " Coche -> "+this.marca + " / "+this.modelo+" / "+this.deposito;
 	}
 
 }
